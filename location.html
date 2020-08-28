@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Relógio - Camila</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <nav>
+        <img src="https://image.flaticon.com/icons/svg/594/594886.svg" id="logo">
+        <a href="index.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg"> Home</a>
+        <a href="location.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg"> Localidade</a>
+        <a href="ip.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg">Sua Hora</a>
+        <a href="about.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg"> About</a>
+
+    </nav>
+    <main>
+    <section id='sec-location'>
+        <center><h1>LOCALIDADE</h1></center>
+        <BR>
+    <label for="timezone">Continente:</label>
+    <select id="timezone" onchange="loadTimezone()">
+        <option value="Africa">Africa</option>
+        <option value="America">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Antarctica">Antarctica</option>
+        <option value="Australia">Australia</option>
+        <option value="Europe">Europe</option>
+        <option value="Indian">Indian</option>
+        <option value="Pacific">Pacific</option>
+    </select>
+    <br><br>
+    <label for="timezone" >Area:</label>
+    <select id="area" onchange="loadTime()">
+    </select>
+
+    
+    <div id='location'></div>
+
+    </section>
+</main>
+
+
+<footer>Esse site não faz utilização de <img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220216.svg" alt="">
+    <br><br>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+
+</html>

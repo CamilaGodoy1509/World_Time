@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1575203091586-611fe505bb0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+a:hover {
+    color: blue;
+    text-shadow: #ccc 2px 2px 2px;
+    opacity: 1;
+
+}
+
+
+nav {
+    background-color: #fff;
+    padding: 4vh;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 50px;
+}
+
+nav img {
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+nav :visited {
+    color: blue;
+    text-shadow: #ccc 2px 2px 2px;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 22vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 3vh;
+    opacity: 0.3;
+    overflow: hidden;
+    color: #000
+}
+
+div:hover {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    color: red;
+    text-shadow: #ccc 2px 2px 2px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 20px;
+}
+
+#sec-location {
+    padding: 4vh;
+    background-color: #fff;
+    margin: 30vh;
+    color: #000;
+    font-size: 24px;
+    text-shadow: #ccc 2px 2px 2px;
+}
+
+#sec-ip {
+    padding: 4vh;
+    background-color: #fff;
+    margin: 30vh;
+    color: #000;
+    font-size: 18px;
+    text-shadow: #ccc 2px 2px 2px;
+}
+
+#sec-about {
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 30vh;
+    color: #000;
+    font-size: 18px;
+    text-shadow: #ccc 2px 2px 2px;
+}
+
+#about {
+    width: 30vw;
+    border-radius: 300px;
+    opacity: 0.3;
+}
+
+#about:hover {
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+
+@media (max-width: 360px) {
+    nav {
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 8px;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+        width: 22vw;
+        height: 30vh;
+        padding: 5vh;
+    }
+}
+
