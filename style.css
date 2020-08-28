@@ -59,7 +59,7 @@ section {
     justify-content: center;
 }
 
-div {
+.index {
     width: 20vw;
     height: 20vh;
     float: left;
@@ -71,7 +71,7 @@ div {
     
 }
 
-div:hover {
+.index:hover {
     opacity: 1;
     transition: ease-in-out 0.3s;
     color: red;
@@ -156,7 +156,6 @@ footer img {
 
     #sec-location div {
         width: 60vw;
-        height: 30vh;
         font-size: 8px;
     }
 
@@ -188,7 +187,6 @@ footer img {
 
     #sec-ip div {
         width: 60vw;
-        height: 30vh;
         font-size: 8px;
     }
 
