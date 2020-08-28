@@ -50,7 +50,7 @@ nav :visited {
 }
 
 main {
-height: 80vh;
+height: 110vh;
 }
 
 section {
@@ -79,7 +79,6 @@ section {
 }
 
 footer {
-    height: 5vh;
     background-color: #fff;
     padding: 1vh;
     
