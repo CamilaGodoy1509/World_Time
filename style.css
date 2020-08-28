@@ -130,11 +130,7 @@ footer img {
 
 @media (max-width: 360px) {
     nav {
-        background-color: #fff;
-        color: #000;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        width: 55em;
         font-size: 8px;
     }
 
@@ -148,6 +144,11 @@ footer img {
         width: 22vw;
         height: 30vh;
         padding: 5vh;
+    }
+
+    footer {
+        width: 55em;
+        font-size: 8px;
     }
 }
 
