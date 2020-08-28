@@ -128,29 +128,9 @@ footer img {
     transition: ease-in-out 1s;
 }
 
-@media (max-width: 360px) {
-
+@media (max-width: 370px) {
     nav {
-        width: 55em;
-        margin: 0;
-        font-size: 8px;
-    }
-
-    main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    div {
-        width: 22vw;
-        height: 30vh;
-        padding: 5vh;
-    }
-
-    footer {
-        width: 55em;
-        font-size: 8px;
+        width: 100%;
     }
 }
 
