@@ -61,8 +61,11 @@ section {
 
 .index {
     width: 20vw;
-    height: 20vh;
+    height: 30vh;
     float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     margin: 3vh;
     opacity: 0.3;
@@ -134,7 +137,10 @@ footer img {
         font-size: 8px;
     }
 
-
+    .index {
+        width: 20vw;
+        height: 20vh;
+    }
 
     #main-location {
         width: 59vh;
