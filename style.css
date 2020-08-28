@@ -135,9 +135,40 @@ footer img {
         font-size: 8px;
     }
 
-    div {
-        height: 14vh;
+    #main-location {
+        width: 59vh;
+        display: flex;
+        align-items: center;
     }
+
+    #sec-location {
+        padding: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5vw;
+        width: 70vw;
+        height: 30vh;
+        font-size: 10px;
+    }
+
+    #sec-location div {
+        width: 60vw;
+        height: 30vh;
+        font-size: 8px;
+    }
+
+    #sec-location div h1 {
+        font-size: 10px;
+    }
+
+    #sec-location div select {
+        font-size: 8px;
+
+    }
+
+    
+    
 }
 
 

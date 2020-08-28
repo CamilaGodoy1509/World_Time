@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <main>
+
     <nav>
         <img src="https://image.flaticon.com/icons/svg/594/594886.svg" id="logo">
         <a href="index.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg"> Home</a>
@@ -19,35 +19,41 @@
         <a href="about.html"><img src="https://image.flaticon.com/icons/svg/594/594886.svg"> About</a>
 
     </nav>
-    
-    <section id='sec-location'>
-        <center><h1>LOCALIDADE</h1></center>
-        <BR>
-    <label for="timezone">Continente:</label>
-    <select id="timezone" onchange="loadTimezone()">
-        <option value="Africa">Africa</option>
-        <option value="America">America</option>
-        <option value="Asia">Asia</option>
-        <option value="Antarctica">Antarctica</option>
-        <option value="Australia">Australia</option>
-        <option value="Europe">Europe</option>
-        <option value="Indian">Indian</option>
-        <option value="Pacific">Pacific</option>
-    </select>
-    <br><br>
-    <label for="timezone" >Area:</label>
-    <select id="area" onchange="loadTime()">
-    </select>
 
-    
-    <div id='location'></div>
+    <main id="main-location">
 
-    </section>
-</main>
+        <section id='sec-location'>
+            <div>
+                <center>
+                    <h1>LOCALIDADE</h1>
+                </center>
+                <br>
+                <label for="timezone">Continente:</label>
+                <select id="timezone" onchange="loadTimezone()">
+                    <option value="Africa">Africa</option>
+                    <option value="America">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Pacific">Pacific</option>
+                </select>
+                <br><br>
+                <label for="timezone">Area:</label>
+                <select id="area" onchange="loadTime()">
+                </select>
 
 
-<footer>Esse site não faz utilização de <img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220216.svg" alt="">
-    <br><br>
+                <div id='location'></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>Esse site não faz utilização de <img src="https://www.flaticon.com/premium-icon/icons/svg/3220/3220216.svg"
+            alt="">
+        <br><br>
     </footer>
     <script src="script2.js"></script>
 </body>
