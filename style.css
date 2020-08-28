@@ -84,6 +84,7 @@ section {
 footer {
     background-color: #fff;
     padding: 1vh;
+    height: 3vh;
     
 }
 
@@ -134,7 +135,7 @@ footer img {
 
 @media (max-width: 370px) {
     body {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .index {
@@ -161,7 +162,7 @@ footer img {
 
     #sec-location div {
         width: 60vw;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     #sec-location div h1 {
@@ -219,7 +220,8 @@ footer img {
     #sec-about div {
         width: 60vw;
         height: 30vh;
-        font-size: 5px;
+        font-size: 10px;
+        overflow: auto;
     }
 
     #sec-about div h1 {
