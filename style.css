@@ -50,22 +50,25 @@ nav :visited {
 }
 
 main {
+height: 80vh;
+}
+
+section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 div {
-    width: 22vw;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 20vw;
+    height: 20vh;
+    float: left;
     background-color: #fff;
     margin: 3vh;
     opacity: 0.3;
     overflow: hidden;
-    color: #000
+    color: #000;
+    
 }
 
 div:hover {
@@ -76,11 +79,10 @@ div:hover {
 }
 
 footer {
+    height: 5vh;
     background-color: #fff;
-    padding: 3vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 1vh;
+    
 }
 
 footer img {
@@ -129,8 +131,14 @@ footer img {
 }
 
 @media (max-width: 370px) {
-    nav {
-        width: 100%;
+    body {
+        font-size: 8px;
+    }
+
+    div {
+        height: 14vh;
     }
 }
+
+
 

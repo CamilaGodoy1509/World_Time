@@ -24,7 +24,7 @@ xhr.onreadystatechange = function () {
                     let hour = datetime[1].split('.')[0]
 
 
-                    document.getElementById(i).innerHTML += obj2.timezone + "<br>" + `${data}` + "<br>" + `${hour}` + "<br><br>"
+                    document.getElementById(i).innerHTML += "<center>" + obj2.timezone + "<br>" + `${data}` + "<br>" + `${hour}` + "</center>"+ "<br><br>"
 
                 }
 
