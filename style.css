@@ -130,7 +130,7 @@ footer img {
 
 @media (max-width: 360px) {
     nav {
-        width: 70em;
+        width: 100em;
         font-size: 8px;
     }
 
